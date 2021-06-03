@@ -25,8 +25,7 @@ private:
 	bool inWater;
 	float timeFlower;
 public:
-	Flower(string name,string color, float cost, int timeCut, int timeFade, int timeFadeWater);
-	Flower();
+	Flower(string name = "noname", string color = "unknow", float cost = 0, int timeCut = 0, int timeFade = 1, int timeFadeWater = 1);
 	string getName();
 	string getColor();
 	float getState();
