@@ -1,6 +1,6 @@
 #include "Bouquet.h"
 
-Bouquet::Bouquet(int n = 0, Flower F = Flower(), ...) 
+Bouquet::Bouquet(int n, Flower F, ...) 
 {
 	for (int* ptr = &n; n > 0; n--) {
 		flowers.push_back(F);
