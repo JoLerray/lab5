@@ -5,7 +5,7 @@
 
 array<string, 10> COLORS = { "Blue", "Green", "Yellow", "Red", "White", "Orange","Purple","Pink","Black","Gray" };
 
-Flower::Flower(string name = "noname", string color = "unknow", float cost = 0, int timeCut = 0, int timeFade = 0, int timeFadeWater = 0) {
+Flower::Flower(string name, string color, float cost, int timeCut, int timeFade, int timeFadeWater) {
 
 	this->name = name;
 
