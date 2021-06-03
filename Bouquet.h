@@ -5,8 +5,7 @@ class Bouquet {
 private:
 	vector <Flower> flowers;
 public:
-	Bouquet(int,Flower ,...);
-	Bouquet();
+	Bouquet(int n = 0, Flower F = Flower(),...);
 	void addFlower(Flower);
 	void addFlower(vector <Flower>);
 	void addFlower(int,Flower,...);
